@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "bpcl-kr-application-customizer-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/bpclKrApplicationCustomizer/BpclKrApplicationCustomizerApplicationCustomizer.js",
+          "manifest": "./src/extensions/bpclKrApplicationCustomizer/BpclKrApplicationCustomizerApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "BpclKrApplicationCustomizerApplicationCustomizerStrings": "lib/extensions/bpclKrApplicationCustomizer/loc/{locale}.js"
+  }
+}
